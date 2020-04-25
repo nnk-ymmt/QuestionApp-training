@@ -13,6 +13,15 @@
 		5F9BA8352452D10C00EE2750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8332452D10C00EE2750 /* Main.storyboard */; };
 		5F9BA8372452D11900EE2750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8362452D11900EE2750 /* Assets.xcassets */; };
 		5F9BA83A2452D11900EE2750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8382452D11900EE2750 /* LaunchScreen.storyboard */; };
+		5F9BA8422452D3A200EE2750 /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8412452D3A200EE2750 /* batsuSound.mp3 */; };
+		5F9BA8452452D3C100EE2750 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8432452D3C100EE2750 /* sound.mp3 */; };
+		5F9BA8462452D3C100EE2750 /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5F9BA8442452D3C100EE2750 /* maruSound.mp3 */; };
+		5F9BA84B2452D67D00EE2750 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA84A2452D67D00EE2750 /* NextViewController.swift */; };
+		5F9BA84D2452E86C00EE2750 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA84C2452E86C00EE2750 /* ImagesModel.swift */; };
+		5F9BA84F2452EBF200EE2750 /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA84E2452EBF200EE2750 /* ImagesList.swift */; };
+		5F9BA8512453377B00EE2750 /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA8502453377B00EE2750 /* SoundFile.swift */; };
+		5F9BA853245340DD00EE2750 /* WithOutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA852245340DD00EE2750 /* WithOutMP3.swift */; };
+		5F9BA8552453441100EE2750 /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9BA8542453441100EE2750 /* ChangeColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		5F9BA8362452D11900EE2750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9BA8392452D11900EE2750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F9BA83B2452D11900EE2750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9BA8412452D3A200EE2750 /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batsuSound.mp3; sourceTree = "<group>"; };
+		5F9BA8432452D3C100EE2750 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		5F9BA8442452D3C100EE2750 /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maruSound.mp3; sourceTree = "<group>"; };
+		5F9BA84A2452D67D00EE2750 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		5F9BA84C2452E86C00EE2750 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		5F9BA84E2452EBF200EE2750 /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
+		5F9BA8502453377B00EE2750 /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		5F9BA852245340DD00EE2750 /* WithOutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutMP3.swift; sourceTree = "<group>"; };
+		5F9BA8542453441100EE2750 /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		5F9BA82C2452D10C00EE2750 /* QuestionApp */ = {
 			isa = PBXGroup;
 			children = (
-				5F9BA82D2452D10C00EE2750 /* AppDelegate.swift */,
-				5F9BA82F2452D10C00EE2750 /* SceneDelegate.swift */,
-				5F9BA8312452D10C00EE2750 /* ViewController.swift */,
-				5F9BA8332452D10C00EE2750 /* Main.storyboard */,
-				5F9BA8362452D11900EE2750 /* Assets.xcassets */,
+				5F9BA8492452D58100EE2750 /* Model */,
+				5F9BA8482452D57A00EE2750 /* View */,
+				5F9BA8472452D57200EE2750 /* Controller */,
 				5F9BA8382452D11900EE2750 /* LaunchScreen.storyboard */,
+				5F9BA8412452D3A200EE2750 /* batsuSound.mp3 */,
+				5F9BA8442452D3C100EE2750 /* maruSound.mp3 */,
+				5F9BA8432452D3C100EE2750 /* sound.mp3 */,
 				5F9BA83B2452D11900EE2750 /* Info.plist */,
 			);
 			path = QuestionApp;
+			sourceTree = "<group>";
+		};
+		5F9BA8472452D57200EE2750 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BA82D2452D10C00EE2750 /* AppDelegate.swift */,
+				5F9BA82F2452D10C00EE2750 /* SceneDelegate.swift */,
+				5F9BA8312452D10C00EE2750 /* ViewController.swift */,
+				5F9BA84A2452D67D00EE2750 /* NextViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F9BA8482452D57A00EE2750 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BA8332452D10C00EE2750 /* Main.storyboard */,
+				5F9BA8362452D11900EE2750 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F9BA8492452D58100EE2750 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F9BA84C2452E86C00EE2750 /* ImagesModel.swift */,
+				5F9BA84E2452EBF200EE2750 /* ImagesList.swift */,
+				5F9BA8502453377B00EE2750 /* SoundFile.swift */,
+				5F9BA852245340DD00EE2750 /* WithOutMP3.swift */,
+				5F9BA8542453441100EE2750 /* ChangeColor.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9BA8422452D3A200EE2750 /* batsuSound.mp3 in Resources */,
 				5F9BA83A2452D11900EE2750 /* LaunchScreen.storyboard in Resources */,
 				5F9BA8372452D11900EE2750 /* Assets.xcassets in Resources */,
 				5F9BA8352452D10C00EE2750 /* Main.storyboard in Resources */,
+				5F9BA8452452D3C100EE2750 /* sound.mp3 in Resources */,
+				5F9BA8462452D3C100EE2750 /* maruSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9BA8322452D10C00EE2750 /* ViewController.swift in Sources */,
+				5F9BA8512453377B00EE2750 /* SoundFile.swift in Sources */,
+				5F9BA84F2452EBF200EE2750 /* ImagesList.swift in Sources */,
+				5F9BA84B2452D67D00EE2750 /* NextViewController.swift in Sources */,
 				5F9BA82E2452D10C00EE2750 /* AppDelegate.swift in Sources */,
 				5F9BA8302452D10C00EE2750 /* SceneDelegate.swift in Sources */,
+				5F9BA8552453441100EE2750 /* ChangeColor.swift in Sources */,
+				5F9BA84D2452E86C00EE2750 /* ImagesModel.swift in Sources */,
+				5F9BA853245340DD00EE2750 /* WithOutMP3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
 				INFOPLIST_FILE = QuestionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.QuestionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z4MKYS28;
 				INFOPLIST_FILE = QuestionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nonoka.QuestionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
